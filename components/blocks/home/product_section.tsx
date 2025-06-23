@@ -26,12 +26,12 @@ const products = [
 	},
 	{
 		name: "Gypsum Board Foaming Agent",
-		image: "/products/foaming-agent.webp",
+		image: "/products/foaming-agent.jpg",
 		slug: "foaming-agent",
 	},
 	{
 		name: "Potassium Dodecyl Sulfate",
-		image: "/products/potassium-dodecyl-sulfate.webp",
+		image: "/products/potassium-dodecyl-sulfate.jpg",
 		slug: "potassium-dodecyl-sulfate",
 	},
 ];
