@@ -1,20 +1,18 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import { products } from "@/data/products";
 
-
-export default function ProductSection() {
+export default function ProductList() {
 	return (
-		<section className="bg-zinc-50 dark:bg-transparent py-12 md:py-16 lg:py-20">
-			<div className="mx-auto max-w-5xl px-4 md:px-6">
-				<h2 className="text-4xl font-medium tracking-tight sm:text-4xl lg:text-5xl mb-8 text-center">
+		<section className="overflow-hidden">
+			<div className="relative mx-auto max-w-5xl px-6 py-25 lg:py-20">
+				<h2 className="text-4xl text-primary font-medium tracking-tight sm:text-4xl lg:text-5xl mb-8 text-center">
 					Our Products
 				</h2>
 
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					{products.slice(0, 6).map((product) => (
+					{products.map((product) => (
 						<Link
 							key={product.id}
 							href={product.url}
@@ -45,12 +43,6 @@ export default function ProductSection() {
 							</Card>
 						</Link>
 					))}
-				</div>
-
-				<div className="mt-10 text-center">
-					<Button asChild size="lg" className="px-8 py-6 text-lg">
-						<Link href="/products">View All Products</Link>
-					</Button>
 				</div>
 			</div>
 		</section>
