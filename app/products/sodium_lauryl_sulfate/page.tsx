@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/blocks/layout/header";
 import Footer from "@/components/blocks/layout/footer";
+import { ProductCarousel } from "@/components/blocks/products/product_carousel";
 
 export const metadata: Metadata = {
 	title: "Sodium Lauryl Sulfate | Hengtong Trading",
@@ -12,6 +13,7 @@ export default function Home() {
 	return (
 		<>
 			<Header />
+			<ProductCarousel />
 			<Footer />
 		</>
 	);

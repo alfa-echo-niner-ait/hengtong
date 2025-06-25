@@ -21,7 +21,7 @@ export default function HeroSection() {
 									<ArrowRight className="size-4" />
 								</Link>
 
-								<h1 className="mt-10 text-primary text-balance text-4xl font-bold md:text-5xl xl:text-5xl">
+								<h1 className="mt-10 text-primary/85 text-balance text-4xl font-bold md:text-5xl xl:text-5xl">
 									Quality Anionic Surfactants Services from China
 								</h1>
 								<p className="mt-8">
