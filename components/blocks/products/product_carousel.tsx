@@ -17,8 +17,11 @@ export function ProductCarousel() {
                 align: "start",
                 loop: true,
             }}
-            className="relative mx-auto max-w-5xl py-4" // Added py-4 to reduce section height
+            className="relative mx-auto max-w-5xl py-4 mb-3" // Added py-4 to reduce section height
         >
+            <h2 className="text-balance text-2xl font-semibold lg:text-3xl mb-4">
+                Related Products
+            </h2>
             <CarouselContent>
                 {products.map((product) => (
                     <CarouselItem key={product.id} className="md:basis-1/2 lg:basis-1/3">

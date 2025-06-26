@@ -23,7 +23,7 @@ export default function FeaturesSection() {
 					<div className="group shadow-zinc-950/5">
 						<CardHeader className="pb-3">
 							<CardDecorator>
-								<Zap className="size-6" aria-hidden />
+								<Zap className="size-8" aria-hidden />
 							</CardDecorator>
 
 							<h3 className="mt-6 font-medium">Fast Response</h3>
@@ -40,7 +40,7 @@ export default function FeaturesSection() {
 					<div className="group shadow-zinc-950/5">
 						<CardHeader className="pb-3">
 							<CardDecorator>
-								<TestTube2 className="size-6" aria-hidden />
+								<TestTube2 className="size-8" aria-hidden />
 							</CardDecorator>
 
 							<h3 className="mt-6 font-medium">Free Sample</h3>
@@ -56,7 +56,7 @@ export default function FeaturesSection() {
 					<div className="group shadow-zinc-950/5">
 						<CardHeader className="pb-3">
 							<CardDecorator>
-								<Truck className="size-6" aria-hidden />
+								<Truck className="size-8" aria-hidden />
 							</CardDecorator>
 
 							<h3 className="mt-6 font-medium">Fast Delivery</h3>
@@ -73,7 +73,7 @@ export default function FeaturesSection() {
 					<div className="group shadow-zinc-950/5">
 						<CardHeader className="pb-3">
 							<CardDecorator>
-								<Package className="size-6" aria-hidden />
+								<Package className="size-8" aria-hidden />
 							</CardDecorator>
 
 							<h3 className="mt-6 font-medium">Custom Packaging</h3>

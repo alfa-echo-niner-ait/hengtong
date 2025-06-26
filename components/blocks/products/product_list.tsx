@@ -6,8 +6,8 @@ import { products } from "@/data/products";
 export default function ProductList() {
 	return (
 		<section className="overflow-hidden">
-			<div className="relative mx-auto max-w-5xl px-6 py-25 lg:py-20">
-				<h2 className="text-4xl text-primary font-medium tracking-tight sm:text-4xl lg:text-5xl mb-8 text-center">
+			<div className="relative mx-auto max-w-5xl px-6">
+				<h2 className="text-4xl text-primary/85 font-medium tracking-tight sm:text-4xl lg:text-5xl mb-8 text-center">
 					Our Products
 				</h2>
 
