@@ -30,9 +30,9 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    name: 'High Activity Color Stain Remover Stick',
-    image: '/products/high_activity_color_stain_remover_stick.jpg',
-    url: '/products/high_activity_color_stain_remover_stick',
+    name: 'High Activity Color Stain Remover',
+    image: '/products/high_activity_color_stain_remover.jpg',
+    url: '/products/high_activity_color_stain_remover',
     description: 'Powerful stain remover stick ideal for colored fabrics and tough stains.',
   },
   {

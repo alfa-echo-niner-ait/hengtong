@@ -1,11 +1,11 @@
 import Image from "next/image"
-import { Button } from "@/components/ui/button";
 import { AspectRatio } from "@/components/ui/aspect-ratio"
+import { InquiryButton } from "../inquiry_button";
 
 export function ProductInfo() {
     return (
         <section className="overflow-hidden">
-            <div className="relative mx-auto max-w-5xl p-6 my-5 bg-zinc-50">
+            <div className="p-6 my-5 bg-zinc-50">
                 <div className="grid gap-8 md:grid-cols-2">
                     {/* Product Image */}
                     <div className="flex justify-center">
@@ -55,10 +55,7 @@ export function ProductInfo() {
                                 </p>
                             </div>
                         </div>
-
-                        <Button size="lg" className="w-full md:w-auto bg-blue-400">
-                            Send Inquiry
-                        </Button>
+                        <InquiryButton />
                     </div>
                 </div>
             </div>

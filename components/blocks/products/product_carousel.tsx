@@ -14,10 +14,10 @@ export function ProductCarousel() {
     return (
         <Carousel
             opts={{
-                align: "start",
+                align: "center",
                 loop: true,
             }}
-            className="relative mx-auto max-w-5xl py-4 mb-3" // Added py-4 to reduce section height
+            className="py-4 mb-3"
         >
             <h2 className="text-balance text-2xl font-semibold lg:text-3xl mb-4">
                 Related Products
@@ -25,7 +25,7 @@ export function ProductCarousel() {
             <CarouselContent>
                 {products.map((product) => (
                     <CarouselItem key={product.id} className="md:basis-1/2 lg:basis-1/3">
-                        <div className="p-1 h-full"> {/* Added h-full here */}
+                        <div className="p-1 h-full">
                             <Link
                                 key={product.id}
                                 href={product.url}
@@ -33,7 +33,7 @@ export function ProductCarousel() {
                                 aria-label={`View ${product.name} product details`}
                             >
                                 <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow border-0 shadow-sm group-hover:shadow-md flex flex-col"> {/* Added flex flex-col */}
-                                    <CardContent className="p-0 flex-1"> {/* Added flex-1 */}
+                                    <CardContent className="p-0 flex-1">
                                         <div className="aspect-square relative overflow-hidden rounded-t-lg">
                                             <Image
                                                 src={product.image}

@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
 import Header from "@/components/blocks/layout/header";
 import Footer from "@/components/blocks/layout/footer";
 import { ProductCarousel } from "@/components/blocks/products/product_carousel";
-import { IndicatorsTable } from "@/components/blocks/products/product_5/indicators_table";
-import { PNA } from "@/components/blocks/products/product_5/pna";
 import { BreadcrumbProduct } from "@/components/blocks/products/breadcrumb_product";
-import { ProductInfo } from "@/components/blocks/products/product_5/product_info";
+import { IndicatorsTable } from "@/components/blocks/products/product_4/indicators_table";
+import { PNA } from "@/components/blocks/products/product_4/pna";
+import { ProductInfo } from "@/components/blocks/products/product_4/product_info";
 
 export const metadata: Metadata = {
-	title: "Gypsum Board Foaming Agent | Hengtong Trading",
-	description: "Discover high-quality gypsum board foaming agents from Hengtong Trading. Enhance the strength, insulation, and performance of gypsum boards with our reliable foaming solutions for construction and building materials."
+	title: "High Activity Color Stain Remover | Hengtong Trading",
+	description:
+		"High Activity Color Stain Remover is a powerful cleaning agent designed to remove tough stains from various surfaces. Ideal for both industrial and household use, it effectively tackles grease, oil, and other stubborn residues.",
 };
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
 		<>
 			<Header />
 			<div className="relative mx-auto max-w-5xl px-6">
-				<BreadcrumbProduct product_name="Gypsum Board Foaming Agent" />
+				<BreadcrumbProduct product_name="High Activity Color Stain Remover" />
 				<ProductInfo />
 				<Tabs defaultValue="table" className="max-w-5xl mx-auto my-3">
 					<div className="flex justify-center">
