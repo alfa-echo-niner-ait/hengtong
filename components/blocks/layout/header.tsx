@@ -22,13 +22,13 @@ export default function Header() {
 					data-state={menuState && "active"}
 					className="fixed z-20 w-full border-b border-dashed bg-white backdrop-blur md:relative dark:bg-zinc-950/50 lg:dark:bg-transparent"
 				>
-					<div className="m-auto max-w-5xl px-6">
+					<div className="m-auto max-w-5xl">
 						<div className="flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
 							<div className="flex w-full justify-between lg:w-auto">
 								<Link
 									href="/"
 									aria-label="home"
-									className="flex items-center space-x-2"
+									className="flex items-center space-x-2 px-6"
 								>
 									<Logo className="h-10 w-auto" />
 								</Link>
