@@ -9,8 +9,8 @@ import { useState } from "react";
 const menuItems = [
 	{ name: "Home", href: "/" },
 	{ name: "Products", href: "/products" },
-	{ name: "FAQ", href: "#" },
-	{ name: "About", href: "#" },
+	{ name: "FAQ", href: "/faq" },
+	{ name: "About", href: "/about" },
 ];
 
 export default function Header() {
@@ -61,7 +61,7 @@ export default function Header() {
 
 								<div className="pe-5 flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
 									<Button asChild size="sm">
-										<Link href="#">
+										<Link href="/contact">
 											<span>Contact Us</span>
 										</Link>
 									</Button>

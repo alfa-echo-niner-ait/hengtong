@@ -13,7 +13,7 @@ export default function HeroSection() {
 						<div className="lg:flex lg:items-center lg:gap-12">
 							<div className="relative z-10 mx-auto max-w-xl text-center lg:ml-0 lg:w-1/2 lg:text-left">
 								<Link
-									href="/"
+									href="/about"
 									className="rounded-(--radius) mx-auto flex w-fit items-center gap-2 border border-zinc-500 dark:border-zinc-50 p-2 pr-3 lg:ml-0 hover:text-primary"
 								>
 									<span className="text-sm">About Us</span>

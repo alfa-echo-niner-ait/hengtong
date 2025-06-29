@@ -1,3 +1,6 @@
+'use client'
+import CountUp from 'react-countup'
+
 export default function StatsSection() {
 	return (
 		<section className="py-6 md:py-10">
@@ -11,15 +14,39 @@ export default function StatsSection() {
 
 				<div className="grid gap-12 divide-y *:text-center md:grid-cols-3 md:gap-2 md:divide-x md:divide-y-0">
 					<div className="space-y-4">
-						<div className="text-primary/85 text-5xl font-bold">+20</div>
+						<div className="text-primary/85 text-5xl font-bold">
+							<CountUp
+								end={20}
+								duration={3}
+								prefix="+"
+								enableScrollSpy
+								scrollSpyOnce
+							/>
+						</div>
 						<p>Years of Manufacturing Experience</p>
 					</div>
 					<div className="space-y-4">
-						<div className="text-primary/85 text-5xl font-bold">+420</div>
+						<div className="text-primary/85 text-5xl font-bold">
+							<CountUp
+								end={420}
+								duration={3}
+								prefix="+"
+								enableScrollSpy
+								scrollSpyOnce
+							/>
+						</div>
 						<p>Customers Over the World</p>
 					</div>
 					<div className="space-y-4">
-						<div className="text-primary/85 text-5xl font-bold">+30</div>
+						<div className="text-primary/85 text-5xl font-bold">
+							<CountUp
+								end={30}
+								duration={3}
+								prefix="+"
+								enableScrollSpy
+								scrollSpyOnce
+							/>
+						</div>
 						<p>Countries We have Exported</p>
 					</div>
 				</div>

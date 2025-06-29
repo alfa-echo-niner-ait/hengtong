@@ -12,15 +12,15 @@ const links = [
 	},
 	{
 		title: "FAQ",
-		href: "#",
+		href: "/faq",
 	},
 	{
 		title: "About",
-		href: "#",
+		href: "/about",
 	},
 	{
 		title: "Contact",
-		href: "#",
+		href: "/contact",
 	},
 ];
 
