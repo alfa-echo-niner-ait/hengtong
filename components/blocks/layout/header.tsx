@@ -30,7 +30,7 @@ export default function Header() {
 									aria-label="home"
 									className="flex items-center space-x-2 px-6"
 								>
-									<Logo className="h-10 w-auto" />
+									<Logo className="h-12 w-auto" />
 								</Link>
 
 								<button
@@ -59,7 +59,7 @@ export default function Header() {
 									</ul>
 								</div>
 
-								<div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
+								<div className="pe-5 flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
 									<Button asChild size="sm">
 										<Link href="#">
 											<span>Contact Us</span>
