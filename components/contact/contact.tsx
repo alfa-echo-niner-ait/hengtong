@@ -23,7 +23,7 @@ export default function Contact() {
 						>
 							<div>
 								<Label htmlFor="name">Your/Company Name</Label>
-								<Input type="text" id="name" />
+								<Input type="text" id="name" required />
 							</div>
 
 							<div>
@@ -38,10 +38,10 @@ export default function Contact() {
 
 							<div>
 								<Label htmlFor="msg">Your Message</Label>
-								<Textarea id="msg" rows={10} required />
+								<Textarea id="msg" rows={10} className="h-40" required />
 							</div>
 
-							<Button>Send</Button>
+							<Button type="submit" size="lg" className="w-full md:w-auto">Send</Button>
 						</form>
 					</div>
 

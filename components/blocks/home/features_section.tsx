@@ -6,7 +6,6 @@ export default function FeaturesSection() {
 	return (
 		<section className="bg-zinc-50 py-16 md:py-25 dark:bg-transparent">
 			<div className="@container mx-auto max-w-5xl px-6">
-				{" "}
 				{/* Increased max-width */}
 				<div className="text-center">
 					<h2 className="text-balance text-4xl font-semibold lg:text-5xl">

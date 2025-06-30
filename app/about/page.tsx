@@ -2,6 +2,7 @@ import Header from "@/components/blocks/layout/header";
 import Footer from "@/components/blocks/layout/footer";
 import { BreadcrumbSection } from "@/components/blocks/layout/breadcrumb";
 import AboutSection from "@/components/blocks/home/about_section";
+import { ImageSlider } from "@/components/blocks/home/image_slider";
 
 export default function Home() {
     return (
@@ -9,6 +10,7 @@ export default function Home() {
             <Header />
             <BreadcrumbSection section_name="About Us" />
             <AboutSection />
+            <ImageSlider />
             <Footer />
         </>
     );

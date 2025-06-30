@@ -7,6 +7,8 @@ import FAQSection from "@/components/blocks/home/faq_section"
 import ProductSection from "@/components/blocks/home/product_section"
 import Footer from "@/components/blocks/layout/footer"
 import Header from "@/components/blocks/layout/header"
+import { ImageSlider } from "@/components/blocks/home/image_slider"
+import Testimonials from "@/components/blocks/home/testimonials"
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
       <FeaturesSection />
       <AboutSection />
       <ProductSection />
+      <Testimonials />
       <FAQSection />
+      <ImageSlider />
       <Footer />
     </>
   )

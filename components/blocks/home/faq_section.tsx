@@ -74,7 +74,7 @@ export default function FAQSection() {
 	];
 
 	return (
-		<section className="py-8 md:py-16">
+		<section className="bg-zinc-50 dark:bg-transparent py-8 md:py-16">
 			<div className="mx-auto max-w-5xl px-4 md:px-6">
 				<div className="flex flex-col gap-10 md:flex-row md:gap-16">
 					<div className="md:w-1/3">
