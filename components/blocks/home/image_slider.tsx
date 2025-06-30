@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { motion, useAnimationFrame } from "framer-motion";
+import { useAnimationFrame } from "framer-motion";
 import Image from "next/image";
 import clsx from "clsx";
 

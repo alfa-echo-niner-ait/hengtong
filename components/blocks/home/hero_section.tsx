@@ -28,7 +28,7 @@ export default function HeroSection() {
 								</h1>
 								<p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-lg">
 									Cost-effective anionic surfactants with custom packaging solutions.
-									We tailor our services to meet your project's unique requirements
+									We tailor our services to meet your project&apos;s unique requirements
 									with precision and quality.
 								</p>
 							</div>
