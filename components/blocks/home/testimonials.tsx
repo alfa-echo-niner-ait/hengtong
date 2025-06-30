@@ -55,7 +55,7 @@ const getCardClasses = (size: string) => {
 export default function Testimonials() {
   return (
     <section className="py-12 md:py-16 lg:py-20">
-      <div className="container px-4 mx-auto max-w-7xl">
+      <div className="container px-4 mx-auto max-w-5xl">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
             Trusted by Chemical Partners Worldwide
