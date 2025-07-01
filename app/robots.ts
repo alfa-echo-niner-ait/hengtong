@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         '/server',     // Block server files if exposed
       ],
     },
-    sitemap: '/sitemap.xml',
+    sitemap: 'https://hengtongtrading.com/sitemap.xml',
   }
 }

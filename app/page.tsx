@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
 
-import HeroSection from "@/components/blocks/home/hero_section"
-import StatsSection from "@/components/blocks/home/stats_section"
-import FeaturesSection from "@/components/blocks/home/features_section"
-import AboutSection from "@/components/blocks/home/about_section"
-import FAQSection from "@/components/blocks/home/faq_section"
-import ProductSection from "@/components/blocks/home/product_section"
-import Footer from "@/components/blocks/layout/footer"
-import Header from "@/components/blocks/layout/header"
-import { ImageSlider } from "@/components/blocks/home/image_slider"
-import Testimonials from "@/components/blocks/home/testimonials"
+import HeroSection from "@/components/blocks/home/hero_section";
+import StatsSection from "@/components/blocks/home/stats_section";
+import FeaturesSection from "@/components/blocks/home/features_section";
+import AboutSection from "@/components/blocks/home/about_section";
+import FAQSection from "@/components/blocks/home/faq_section";
+import ProductSection from "@/components/blocks/home/product_section";
+import Footer from "@/components/blocks/layout/footer";
+import Header from "@/components/blocks/layout/header";
+import { ImageSlider } from "@/components/blocks/home/image_slider";
+import Testimonials from "@/components/blocks/home/testimonials";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://hengtongtrading.com"),
 	alternates: {
-		canonical: "/",
+		canonical: "https://hengtongtrading.com/",
 	},
 	title:
 		"Hengtong Trading - Top Manufacturer of SLS, AOS & PVC Additives from China",
@@ -62,18 +62,18 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <HeroSection />
-      <StatsSection />
-      <FeaturesSection />
-      <AboutSection />
-      <ProductSection />
-      <Testimonials />
-      <FAQSection />
-      <ImageSlider />
-      <Footer />
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<HeroSection />
+			<StatsSection />
+			<FeaturesSection />
+			<AboutSection />
+			<ProductSection />
+			<Testimonials />
+			<FAQSection />
+			<ImageSlider />
+			<Footer />
+		</>
+	);
 }

@@ -41,6 +41,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+			</head>
 			<body>{children}</body>
 			<GoogleAnalytics gaId="G-7FMH3XQZLW" />
 		</html>
