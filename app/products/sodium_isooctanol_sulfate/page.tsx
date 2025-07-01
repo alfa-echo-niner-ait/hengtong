@@ -13,6 +13,31 @@ export const metadata: Metadata = {
 	title: "Sodium Isooctanol Sulfate | Hengtong Trading",
 	description:
 		"Sodium Isooctanol Sulfate is a versatile surfactant used in various industrial applications, including cleaning, emulsification, and personal care products. Known for its excellent wetting and dispersing properties, it is suitable for both neutral and alkaline media.",
+	keywords: [
+		"Sodium Isooctanol Sulfate",
+		"Surfactant",
+		"Emulsifier",
+		"Cleaning Agent",
+		"Industrial Chemicals",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Sodium Isooctanol Sulfate | Hengtong Trading",
+		description:
+			"Sodium Isooctanol Sulfate is a versatile surfactant used in various industrial applications, including cleaning, emulsification, and personal care products. Known for its excellent wetting and dispersing properties, it is suitable for both neutral and alkaline media.",
+		url: "https://hengtongtrading.com/products/sodium_isooctanol_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-12.png",
+				width: 1200,
+				height: 630,
+				alt: "Sodium Isooctanol Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

@@ -13,6 +13,31 @@ export const metadata: Metadata = {
 	title: "Potassium Dodecyl Sulfate | Hengtong Trading",
 	description:
 		"Potassium Dodecyl Sulfate is a potassium salt of dodecyl sulfate, widely used in cleaning and emulsification applications. It is known for its excellent surfactant properties, making it suitable for various industrial and personal care products.",
+	keywords: [
+		"Potassium Dodecyl Sulfate",
+		"Surfactant",
+		"Emulsifier",
+		"Cleaning Agent",
+		"Industrial Chemicals",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Potassium Dodecyl Sulfate | Hengtong Trading",
+		description:
+			"Potassium Dodecyl Sulfate is a potassium salt of dodecyl sulfate, widely used in cleaning and emulsification applications. It is known for its excellent surfactant properties, making it suitable for various industrial and personal care products.",
+		url: "https://hengtongtrading.com/products/potassium_dodecyl_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-6.png",
+				width: 1200,
+				height: 630,
+				alt: "Potassium Dodecyl Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

@@ -12,7 +12,32 @@ import { ProductInfo } from "@/components/blocks/products/product_4/product_info
 export const metadata: Metadata = {
 	title: "High Activity Color Stain Remover | Hengtong Trading",
 	description:
-		"High Activity Color Stain Remover is a powerful cleaning agent designed to remove tough stains from various surfaces. Ideal for both industrial and household use, it effectively tackles grease, oil, and other stubborn residues.",
+		"High Activity Color Stain Remover is a powerful cleaning agent designed to remove tough stains from various surfaces. Ideal for both industrial and household use.",
+	keywords: [
+		"High Activity Color Stain Remover",
+		"Stain Remover",
+		"Cleaning Agent",
+		"Surface Cleaner",
+		"Industrial Cleaning",
+		"Household Cleaning",
+		"Powerful Stain Removal",
+		"Color Stain Remover",
+	],
+	openGraph: {
+		title: "High Activity Color Stain Remover | Hengtong Trading",
+		description:
+			"High Activity Color Stain Remover is a powerful cleaning agent designed to remove tough stains from various surfaces. Ideal for both industrial and household use.",
+		url: "https://hengtongtrading.com/products/high_activity_color_stain_remover",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-4.png",
+				width: 1200,
+				height: 630,
+				alt: "High Activity Color Stain Remover - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

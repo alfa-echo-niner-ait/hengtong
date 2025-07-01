@@ -13,6 +13,31 @@ export const metadata: Metadata = {
 	title: "Sodium Octyl Decyl Alcohol Sulphate | Hengtong Trading",
 	description:
 		"Sodium Octyl Decyl Alcohol Sulphate is a versatile surfactant used in various industrial applications, including cleaning, emulsification, and personal care products. Known for its excellent wetting and dispersing properties, it is suitable for both neutral and alkaline media.",
+	keywords: [
+		"Sodium Octyl Decyl Alcohol Sulphate",
+		"Surfactant",
+		"Emulsifier",
+		"Cleaning Agent",
+		"Industrial Chemicals",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Sodium Octyl Decyl Alcohol Sulphate | Hengtong Trading",
+		description:
+			"Sodium Octyl Decyl Alcohol Sulphate is a versatile surfactant used in various industrial applications, including cleaning, emulsification, and personal care products. Known for its excellent wetting and dispersing properties, it is suitable for both neutral and alkaline media.",
+		url: "https://hengtongtrading.com/products/sodium_octyl_decyl_alcohol_sulphate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-10.png",
+				width: 1200,
+				height: 630,
+				alt: "Sodium Octyl Decyl Alcohol Sulphate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

@@ -11,7 +11,29 @@ import { ProductInfo } from "@/components/blocks/products/product_5/product_info
 
 export const metadata: Metadata = {
 	title: "Gypsum Board Foaming Agent | Hengtong Trading",
-	description: "Discover high-quality gypsum board foaming agents from Hengtong Trading. Enhance the strength, insulation, and performance of gypsum boards with our reliable foaming solutions for construction and building materials."
+	description: "Enhance the strength, insulation, and performance of gypsum boards with our reliable foaming solutions for construction and building materials.",
+	keywords: [
+		"Gypsum Board Foaming Agent",
+		"Foaming Agent for Gypsum Boards",
+		"Construction Materials",
+		"Building Materials",
+		"Insulation Solutions",
+		"Strength Enhancement",
+		"Foaming Solutions",
+	],
+	openGraph: {
+		title: "Gypsum Board Foaming Agent | Hengtong Trading",
+		description: "Enhance the strength, insulation, and performance of gypsum boards with our reliable foaming solutions for construction and building materials.",
+		url: "https://hengtongtrading.com/products/gypsum_board_foaming_agent",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-5.png",
+				width: 1200,
+				height: 630,
+				alt: "Gypsum Board Foaming Agent - Hengtong Trading",
+			},
+		]},
 };
 
 export default function Home() {

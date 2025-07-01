@@ -12,7 +12,31 @@ import { ProductInfo } from "@/components/blocks/products/product_3/product_info
 export const metadata: Metadata = {
 	title: "Sodium Dodccyl Sulfate | Hengtong Trading",
 	description:
-		"Sodium Dodccyl Sulfate is a high-performance surfactant used in various applications, including detergents and personal care products. Explore its technical indicators and performance applications.",
+		"Sodium Dodccyl Sulfate is a high-performance surfactant used in various applications, including detergents and personal care products.",
+	keywords: [
+		"Sodium Dodccyl Sulfate",
+		"Surfactant",
+		"Detergents",
+		"Personal Care Products",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Sodium Dodccyl Sulfate | Hengtong Trading",
+		description:
+			"Sodium Dodccyl Sulfate is a high-performance surfactant used in various applications, including detergents and personal care products.",
+		url: "https://hengtongtrading.com/products/sodium_dodccyl_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-3.png",
+				width: 1200,
+				height: 630,
+				alt: "Sodium Dodccyl Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {
