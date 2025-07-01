@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,8 +16,23 @@ export const metadata: Metadata = {
 			"max-video-preview": -1,
 		},
 	},
+	openGraph: {
+			title: "Hengtong Trading",
+			description:
+				"Leading manufacturer specializing in Sodium Lauryl Sulfate (SLS), Alpha Olefin Sulfonate (AOS), and PVC additives. Our production facility is in Shandong, China",
+			url: "https://hengtongtrading.com",
+			type: "website",
+			siteName: "Hengtong Trading",
+			images: [
+				{
+					url: "https://hengtongtrading.com/og/main.png",
+					width: 1200,
+					height: 630,
+					alt: "Hengtong Trading",
+				},
+			],
+		},
 };
-
 
 export default function RootLayout({
 	children,
@@ -26,6 +42,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>{children}</body>
+			<GoogleAnalytics gaId="G-7FMH3XQZLW" />
 		</html>
 	);
 }

@@ -19,5 +19,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: '/faq',
       lastModified: new Date(),
     },
+    {
+      url: '/about',
+      lastModified: new Date(),
+    },
+    {
+      url: '/contact',
+      lastModified: new Date(),
+    },
   ]
 }
