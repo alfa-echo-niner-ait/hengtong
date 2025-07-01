@@ -17,6 +17,33 @@ export const metadata: Metadata = {
 	title: "Sodium Lauryl Sulfate | Hengtong Trading",
 	description:
 		"Sodium Lauryl Sulfate (SLS) is an anionic surfactant widely used in personal care products, detergents, and industrial applications. Known for its excellent foaming and cleansing properties, SLS is a key ingredient in shampoos, toothpastes, and body washes. It effectively removes dirt and oil, making it a popular choice in formulations requiring strong cleaning action.",
+	keywords: [
+		"Sodium Lauryl Sulfate",
+		"Anionic Surfactant",
+		"Personal Care Products",
+		"Detergents",
+		"Industrial Applications",
+		"Foaming Agent",
+		"Cleansing Agent",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Sodium Lauryl Sulfate | Hengtong Trading",
+		description:
+			"Sodium Lauryl Sulfate (SLS) is an anionic surfactant widely used in personal care products, detergents, and industrial applications. Known for its excellent foaming and cleansing properties, SLS is a key ingredient in shampoos, toothpastes, and body washes. It effectively removes dirt and oil, making it a popular choice in formulations requiring strong cleaning action.",
+		url: "https://hengtongtrading.com/products/sodium_lauryl_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-1.png",
+				width: 1200,
+				height: 630,
+				alt: "Sodium Lauryl Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

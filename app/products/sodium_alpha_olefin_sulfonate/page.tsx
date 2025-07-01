@@ -13,6 +13,30 @@ export const metadata: Metadata = {
 	title: "Sodium Alpha-olefin Sulfonate | Hengtong Trading",
 	description:
 		"Sodium Alpha-olefin Sulfonate is a mild, biodegradable surfactant used in personal care products. It provides excellent foaming and cleansing properties while being gentle on the skin.",
+	keywords: [		"Sodium Alpha-olefin Sulfonate",
+		"Surfactant",
+		"Biodegradable Surfactant",
+		"Personal Care Products",
+		"Foaming Agent",
+		"Cleansing Agent",
+		"Skin Care",
+		"Cosmetic Ingredients",
+	],
+	openGraph: {
+		title: "Sodium Alpha-olefin Sulfonate | Hengtong Trading",
+		description:
+			"Sodium Alpha-olefin Sulfonate is a mild, biodegradable surfactant used in personal care products. It provides excellent foaming and cleansing properties while being gentle on the skin.",
+		url: "https://hengtongtrading.com/products/sodium_alpha_olefin_sulfonate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-2.png",
+				width: 1200,
+				height: 630,
+				alt: "Sodium Alpha-olefin Sulfonate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

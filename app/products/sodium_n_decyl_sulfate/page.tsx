@@ -13,6 +13,31 @@ export const metadata: Metadata = {
 	title: "Sodium N-Decyl Sulfate | Hengtong Trading",
 	description:
 		"Sodium N-Decyl Sulfate is a disulfonyl anionic surfactant with larger molecular weight and lower hydrophilicity than K12, making it easier to prepare microemulsions. It is used in pharmaceuticals, textiles, leather, and personal care products.",
+	keywords: [
+		"Sodium N-Decyl Sulfate",
+		"Surfactant",
+		"Disulfonyl Surfactant",
+		"Microemulsion",
+		"Pharmaceuticals",
+		"Textiles",
+		"Leather",
+		"Personal Care Products",
+	],
+	openGraph: {
+		title: "Sodium N-Decyl Sulfate | Hengtong Trading",
+		description:
+			"Sodium N-Decyl Sulfate is a disulfonyl anionic surfactant with larger molecular weight and lower hydrophilicity than K12, making it easier to prepare microemulsions. It is used in pharmaceuticals, textiles, leather, and personal care products.",
+		url: "https://hengtongtrading.com/products/sodium_n_decyl_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-9.png",
+				width: 1200,
+				height: 630,
+				alt: "Sodium N-Decyl Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

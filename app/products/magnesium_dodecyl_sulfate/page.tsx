@@ -12,7 +12,31 @@ import { ProductInfo } from "@/components/blocks/products/product_8/product_info
 export const metadata: Metadata = {
 	title: "Magnesium Dodecyl Sulfate | Hengtong Trading",
 	description:
-		"Magnesium Dodecyl Sulfate is a magnesium-based surfactant used in specialized cleaning formulations. It is known for its excellent emulsifying and wetting properties, making it suitable for various industrial applications.",
+		"Magnesium Dodecyl Sulfate is a magnesium-based surfactant used in specialized cleaning formulations. It is known for its excellent emulsifying and wetting properties.",
+	keywords: [		"Magnesium Dodecyl Sulfate",
+		"Surfactant",
+		"Emulsifier",
+		"Cleaning Agent",
+		"Industrial Chemicals",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Magnesium Dodecyl Sulfate | Hengtong Trading",
+		description:
+			"Magnesium Dodecyl Sulfate is a magnesium-based surfactant used in specialized cleaning formulations. It is known for its excellent emulsifying and wetting properties.",
+		url: "https://hengtongtrading.com/products/magnesium_dodecyl_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-8.png",
+				width: 1200,
+				height: 630,
+				alt: "Magnesium Dodecyl Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {

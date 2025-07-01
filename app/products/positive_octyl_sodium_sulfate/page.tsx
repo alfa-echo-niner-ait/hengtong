@@ -13,6 +13,31 @@ export const metadata: Metadata = {
 	title: "Positive Octyl Sodium Sulfate | Hengtong Trading",
 	description:
 		"Positive Octyl Sodium Sulfate is an effective emulsifier and foaming agent used in detergents. It is known for its excellent wetting and dispersing properties, making it suitable for various industrial applications, including cleaning, emulsification, and personal care products.",
+	keywords: [
+		"Positive Octyl Sodium Sulfate",
+		"Emulsifier",
+		"Foaming Agent",
+		"Detergents",
+		"Industrial Chemicals",
+		"Chemical Manufacturing",
+		"Chemical Industry",
+		"Chemical Products",
+	],
+	openGraph: {
+		title: "Positive Octyl Sodium Sulfate | Hengtong Trading",
+		description:
+			"Positive Octyl Sodium Sulfate is an effective emulsifier and foaming agent used in detergents. It is known for its excellent wetting and dispersing properties, making it suitable for various industrial applications, including cleaning, emulsification, and personal care products.",
+		url: "https://hengtongtrading.com/products/positive_octyl_sodium_sulfate",
+		siteName: "Hengtong Trading",
+		images: [
+			{
+				url: "https://hengtongtrading.com/og/product-11.png",
+				width: 1200,
+				height: 630,
+				alt: "Positive Octyl Sodium Sulfate - Hengtong Trading",
+			},
+		],
+	},
 };
 
 export default function Home() {
