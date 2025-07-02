@@ -1,35 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/sitemap.xml": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "application/xml",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/sitemap.xml",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -49,6 +20,35 @@
       ],
       "initialRevalidateSeconds": false,
       "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sitemap.xml": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "application/xml",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sitemap.xml",
       "dataRoute": null,
       "allowHeader": [
         "host",
@@ -88,6 +88,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/faq": {
       "experimentalBypassFor": [
         {
@@ -112,7 +136,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/contact": {
+    "/products/high_activity_color_stain_remover": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -125,32 +149,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/contact",
-      "dataRoute": "/contact.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
+      "srcRoute": "/products/high_activity_color_stain_remover",
+      "dataRoute": "/products/high_activity_color_stain_remover.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -184,6 +184,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/products/lithium_dodecyl_sulfate": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products/lithium_dodecyl_sulfate",
+      "dataRoute": "/products/lithium_dodecyl_sulfate.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/products": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products",
+      "dataRoute": "/products.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/products/positive_octyl_sodium_sulfate": {
       "experimentalBypassFor": [
         {
@@ -199,6 +247,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/products/positive_octyl_sodium_sulfate",
       "dataRoute": "/products/positive_octyl_sodium_sulfate.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/products/gypsum_board_foaming_agent": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products/gypsum_board_foaming_agent",
+      "dataRoute": "/products/gypsum_board_foaming_agent.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -256,78 +328,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/products/sodium_dodccyl_sulfate": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/products/sodium_dodccyl_sulfate",
-      "dataRoute": "/products/sodium_dodccyl_sulfate.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/products/gypsum_board_foaming_agent": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/products/gypsum_board_foaming_agent",
-      "dataRoute": "/products/gypsum_board_foaming_agent.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/products/sodium_isooctanol_sulfate": {
       "experimentalBypassFor": [
         {
@@ -343,30 +343,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/products/sodium_isooctanol_sulfate",
       "dataRoute": "/products/sodium_isooctanol_sulfate.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/products/sodium_n_decyl_sulfate": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/products/sodium_n_decyl_sulfate",
-      "dataRoute": "/products/sodium_n_decyl_sulfate.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -400,6 +376,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/products/sodium_n_decyl_sulfate": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products/sodium_n_decyl_sulfate",
+      "dataRoute": "/products/sodium_n_decyl_sulfate.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/products/sodium_octyl_decyl_alcohol_sulphate": {
       "experimentalBypassFor": [
         {
@@ -424,7 +424,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/products/high_activity_color_stain_remover": {
+    "/products/sodium_dodccyl_sulfate": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -437,8 +437,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/products/high_activity_color_stain_remover",
-      "dataRoute": "/products/high_activity_color_stain_remover.rsc",
+      "srcRoute": "/products/sodium_dodccyl_sulfate",
+      "dataRoute": "/products/sodium_dodccyl_sulfate.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -448,7 +448,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/products": {
+    "/contact": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -461,8 +461,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/products",
-      "dataRoute": "/products.rsc",
+      "srcRoute": "/contact",
+      "dataRoute": "/contact.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -472,7 +472,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/products/lithium_dodecyl_sulfate": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -485,8 +485,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/products/lithium_dodecyl_sulfate",
-      "dataRoute": "/products/lithium_dodecyl_sulfate.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -500,8 +500,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "11f6b62ffce6bad41c96570784ce423e",
-    "previewModeSigningKey": "8ab85d8b47112dfa5ecd19845d201b9ef9fcdded49cf1d7d73320a69259da5c4",
-    "previewModeEncryptionKey": "daaa04e43d31630dd78882ebf9792eebbdab9db3bb4fec24b24b2a4761acadf9"
+    "previewModeId": "b819c94533db6562a519c2b7ea621c5c",
+    "previewModeSigningKey": "db830df33dfebaccae6591fb131e7aeb48b498763f6ef6a2a18e69905d7cb760",
+    "previewModeEncryptionKey": "f8f4a548aa39eb318f2e2a4476bb6f4a0408b23fb60a4851166d333dd0b684d3"
   }
 }
