@@ -1,0 +1,1 @@
+"use strict";exports.id=82413,exports.ids=[82413],exports.modules={82413:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>s,default:()=>o});var a=d(41552);let s=[["path",{d:"M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3",key:"1ub6xw"}],["path",{d:"m16 2 6 6",key:"1gw87d"}],["path",{d:"M12 16H4",key:"1cjfip"}]],o=(0,a.A)("test-tube-diagonal",s)}};

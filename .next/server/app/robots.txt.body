@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Disallow: /api
+Disallow: /admin
+Disallow: /private
+Disallow: /_next
+Disallow: /server
+
+Sitemap: https://hengtongtrading.com/sitemap.xml

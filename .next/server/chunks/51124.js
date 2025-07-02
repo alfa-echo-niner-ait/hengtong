@@ -1,0 +1,1 @@
+"use strict";exports.id=51124,exports.ids=[51124],exports.modules={51124:(e,t,r)=>{r.r(t),r.d(t,{__iconNode:()=>d,default:()=>h});var i=r(41552);let d=[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",ry:"2",key:"1m3agn"}],["rect",{width:"3",height:"9",x:"7",y:"7",key:"14n3xi"}],["rect",{width:"3",height:"5",x:"14",y:"7",key:"s4azjd"}]],h=(0,i.A)("trello",d)}};

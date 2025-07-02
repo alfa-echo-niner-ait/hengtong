@@ -1,0 +1,1 @@
+"use strict";exports.id=8251,exports.ids=[8251],exports.modules={8251:(e,c,r)=>{r.r(c),r.d(c,{__iconNode:()=>l,default:()=>o});var i=r(41552);let l=[["circle",{cx:"18.5",cy:"17.5",r:"3.5",key:"15x4ox"}],["circle",{cx:"5.5",cy:"17.5",r:"3.5",key:"1noe27"}],["circle",{cx:"15",cy:"5",r:"1",key:"19l28e"}],["path",{d:"M12 17.5V14l-3-3 4-3 2 3h2",key:"1npguv"}]],o=(0,i.A)("bike",l)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=52961,exports.ids=[52961],exports.modules={52961:(e,d,t)=>{t.r(d),t.d(d,{__iconNode:()=>r,default:()=>s});var a=t(41552);let r=[["path",{d:"M6 5v11",key:"mdvv1e"}],["path",{d:"M12 5v6",key:"14ar3b"}],["path",{d:"M18 5v14",key:"7ji314"}]],s=(0,a.A)("kanban",r)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=30430,exports.ids=[30430],exports.modules={30430:(e,t,r)=>{r.r(t),r.d(t,{__iconNode:()=>s,default:()=>i});var d=r(41552);let s=[["path",{d:"M7 22V2l10 5-10 5",key:"17n18y"}]],i=(0,d.A)("flag-triangle-right",s)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=16237,exports.ids=[16237],exports.modules={16237:(e,r,c)=>{c.r(r),c.d(r,{__iconNode:()=>s,default:()=>d});var t=c(41552);let s=[["circle",{cx:"18",cy:"18",r:"3",key:"1xkwt0"}],["circle",{cx:"6",cy:"6",r:"3",key:"1lh9wr"}],["path",{d:"M6 21V9a9 9 0 0 0 9 9",key:"7kw0sc"}]],d=(0,t.A)("git-merge",s)}};

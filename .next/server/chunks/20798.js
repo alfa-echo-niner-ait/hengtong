@@ -1,0 +1,1 @@
+"use strict";exports.id=20798,exports.ids=[20798],exports.modules={20798:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>o,default:()=>a});var s=d(41552);let o=[["path",{d:"m3 11 18-5v12L3 14v-3z",key:"n962bs"}],["path",{d:"M11.6 16.8a3 3 0 1 1-5.8-1.6",key:"1yl0tm"}]],a=(0,s.A)("megaphone",o)}};

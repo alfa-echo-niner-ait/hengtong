@@ -1,0 +1,1 @@
+"use strict";exports.id=16891,exports.ids=[16891],exports.modules={16891:(t,e,d)=>{d.r(e),d.d(e,{__iconNode:()=>p,default:()=>a});var s=d(41552);let p=[["path",{d:"M3.5 21 14 3",key:"1szst5"}],["path",{d:"M20.5 21 10 3",key:"1310c3"}],["path",{d:"M15.5 21 12 15l-3.5 6",key:"1ddtfw"}],["path",{d:"M2 21h20",key:"1nyx9w"}]],a=(0,s.A)("tent",p)}};

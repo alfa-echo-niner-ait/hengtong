@@ -1,0 +1,1 @@
+"use strict";exports.id=15417,exports.ids=[15417],exports.modules={15417:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>o,default:()=>p});var a=d(41552);let o=[["path",{d:"M12 6v6l4 2",key:"mmk7yg"}],["path",{d:"M16 21.16a10 10 0 1 1 5-13.516",key:"cxo92l"}],["path",{d:"M20 11.5v6",key:"2ei3xq"}],["path",{d:"M20 21.5h.01",key:"1r2dzp"}]],p=(0,a.A)("clock-alert",o)}};

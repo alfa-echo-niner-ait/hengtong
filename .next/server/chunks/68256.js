@@ -1,0 +1,1 @@
+"use strict";exports.id=68256,exports.ids=[68256],exports.modules={68256:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>s,default:()=>i});var p=d(41552);let s=[["rect",{x:"2",y:"4",width:"20",height:"16",rx:"2",key:"izxlao"}],["path",{d:"M10 4v4",key:"pp8u80"}],["path",{d:"M2 8h20",key:"d11cs7"}],["path",{d:"M6 4v4",key:"1svtjw"}]],i=(0,p.A)("app-window",s)}};

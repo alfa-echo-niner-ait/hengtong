@@ -1,0 +1,1 @@
+"use strict";exports.id=6673,exports.ids=[6673],exports.modules={6673:(e,c,o)=>{o.r(c),o.d(c,{__iconNode:()=>s,default:()=>i});var r=o(41552);let s=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polygon",{points:"10 8 16 12 10 16 10 8",key:"1cimsy"}]],i=(0,r.A)("circle-play",s)}};

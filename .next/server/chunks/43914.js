@@ -1,0 +1,1 @@
+"use strict";exports.id=43914,exports.ids=[43914],exports.modules={43914:(e,a,d)=>{d.r(a),d.d(a,{__iconNode:()=>r,default:()=>s});var t=d(41552);let r=[["path",{d:"M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3",key:"11za1p"}],["path",{d:"m16 19 2 2 4-4",key:"1b14m6"}]],s=(0,t.A)("grid-2x2-check",r)}};

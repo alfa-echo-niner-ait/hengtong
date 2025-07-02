@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[22431],{22431:(e,c,r)=>{r.r(c),r.d(c,{__iconNode:()=>t,default:()=>l});var s=r(90602);let t=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["rect",{x:"9",y:"9",width:"6",height:"6",rx:"1",key:"1ssd4o"}]],l=(0,s.A)("circle-stop",t)}}]);

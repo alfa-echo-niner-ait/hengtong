@@ -1,0 +1,1 @@
+"use strict";exports.id=10083,exports.ids=[10083],exports.modules={10083:(d,e,t)=>{t.r(e),t.d(e,{__iconNode:()=>a,default:()=>o});var p=t(41552);let a=[["path",{d:"M12 13v8",key:"1l5pq0"}],["path",{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",key:"1pljnt"}],["path",{d:"m8 17 4-4 4 4",key:"1quai1"}]],o=(0,p.A)("cloud-upload",a)}};

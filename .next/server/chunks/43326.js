@@ -1,0 +1,1 @@
+"use strict";exports.id=43326,exports.ids=[43326],exports.modules={43326:(e,o,c)=>{c.r(o),c.d(o,{__iconNode:()=>r,default:()=>s});var l=c(41552);let r=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polyline",{points:"12 6 12 12 16.5 12",key:"1aq6pp"}]],s=(0,l.A)("clock-3",r)}};

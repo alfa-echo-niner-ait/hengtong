@@ -1,0 +1,1 @@
+"use strict";exports.id=78559,exports.ids=[78559],exports.modules={78559:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>a,default:()=>r});var o=d(41552);let a=[["path",{d:"M12 10v12",key:"6ubwww"}],["path",{d:"M17.929 7.629A1 1 0 0 1 17 9H7a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 9 2h6a1 1 0 0 1 .928.629z",key:"1o95gh"}],["path",{d:"M9 22h6",key:"1rlq3v"}]],r=(0,o.A)("lamp-floor",a)}};

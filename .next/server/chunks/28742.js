@@ -1,0 +1,1 @@
+"use strict";exports.id=28742,exports.ids=[28742],exports.modules={28742:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>r,default:()=>s});var o=d(41552);let r=[["path",{d:"M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973",key:"1cez44"}],["path",{d:"m13 12-3 5h4l-3 5",key:"1t22er"}]],s=(0,o.A)("cloud-lightning",r)}};

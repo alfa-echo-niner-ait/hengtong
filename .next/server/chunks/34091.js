@@ -1,0 +1,1 @@
+"use strict";exports.id=34091,exports.ids=[34091],exports.modules={34091:(e,d,t)=>{t.r(d),t.d(d,{__iconNode:()=>o,default:()=>p});var r=t(41552);let o=[["path",{d:"m18 16 4-4-4-4",key:"1inbqp"}],["path",{d:"m6 8-4 4 4 4",key:"15zrgr"}],["path",{d:"m14.5 4-5 16",key:"e7oirm"}]],p=(0,r.A)("code-xml",o)}};

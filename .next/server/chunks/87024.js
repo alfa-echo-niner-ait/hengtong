@@ -1,0 +1,1 @@
+"use strict";exports.id=87024,exports.ids=[87024],exports.modules={87024:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>s,default:()=>i});var r=d(41552);let s=[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",key:"afitv7"}],["path",{d:"M12 3v18",key:"108xh3"}]],i=(0,r.A)("columns-2",s)}};

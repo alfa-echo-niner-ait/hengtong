@@ -1,0 +1,1 @@
+"use strict";exports.id=78083,exports.ids=[78083],exports.modules={78083:(e,t,a)=>{a.r(t),a.d(t,{__iconNode:()=>o,default:()=>r});var d=a(41552);let o=[["path",{d:"M11.5 21a7.5 7.5 0 1 1 7.35-9",key:"1gyj8k"}],["path",{d:"M13 12V3",key:"18om2a"}],["path",{d:"M4 21h16",key:"1h09gz"}],["path",{d:"M9 12V3",key:"geutu0"}]],r=(0,d.A)("georgian-lari",o)}};

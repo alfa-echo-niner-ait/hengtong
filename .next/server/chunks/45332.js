@@ -1,0 +1,1 @@
+"use strict";exports.id=45332,exports.ids=[45332],exports.modules={45332:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>r,default:()=>s});var o=d(41552);let r=[["rect",{x:"5",y:"2",width:"14",height:"20",rx:"7",key:"11ol66"}],["path",{d:"M12 6v4",key:"16clxf"}]],s=(0,o.A)("mouse",r)}};
