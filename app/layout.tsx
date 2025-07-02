@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
+import TawkToWidget from "@/components/blocks/layout/TawkToWidget";
 
 export const metadata: Metadata = {
 	authors: [{ name: 'Ayub Ali Emon', url: 'http://github.com/alfa-echo-niner-ait' }],
@@ -44,7 +45,10 @@ export default function RootLayout({
 			<head>
 				<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 			</head>
-			<body>{children}</body>
+			<body>
+				{children}
+				<TawkToWidget />
+			</body>
 			<GoogleAnalytics gaId="G-7FMH3XQZLW" />
 		</html>
 	);
