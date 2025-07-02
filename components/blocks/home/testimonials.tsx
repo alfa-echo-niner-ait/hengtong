@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { QuoteIcon } from "lucide-react"; // Or any icon library you use
 
 const testimonials = [
   {
@@ -9,7 +10,7 @@ const testimonials = [
     name: "Industrial CleanChem",
     role: "Industrial Chemicals, USA",
     initials: "IC",
-    size: "tall",
+    accentColor: "border bg-blue-50 text-blue-800",
   },
   {
     id: 2,
@@ -18,7 +19,7 @@ const testimonials = [
     name: "BuildChem Materials",
     role: "Construction Chemicals, UAE",
     initials: "BC",
-    size: "small",
+    accentColor: "border bg-emerald-50 text-emerald-800",
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const testimonials = [
     name: "PharmaChem Solutions",
     role: "Pharmaceutical Raw Materials, India",
     initials: "PC",
-    size: "small",
+    accentColor: "border bg-purple-50 text-purple-800",
   },
   {
     id: 4,
@@ -36,67 +37,55 @@ const testimonials = [
     name: "ChemiTrade Solutions",
     role: "Specialty Chemicals Distributor, Germany",
     initials: "CT",
-    size: "wide",
-    accentColor: "bg-green-300",
+    accentColor: "border bg-amber-50 text-amber-800",
   },
 ];
 
-const getCardClasses = (size: string) => {
-  switch (size) {
-    case "tall":
-      return "lg:row-span-2 lg:col-span-2";
-    case "wide":
-      return "lg:col-span-4";
-    default:
-      return "";
-  }
-};
-
 export default function Testimonials() {
   return (
-    <section className="py-12 md:py-16 lg:py-20">
-      <div className="container px-4 mx-auto max-w-5xl">
-        <div className="text-center">
-          <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+    <section className="py-12 md:py-16 lg:py-20 bg-white dark:bg-gray-900">
+      <div className="container px-4 mx-auto max-w-6xl">
+        <div className="text-center mb-12">
+          <h2 className="text-balance text-3xl font-semibold sm:text-4xl">
             Trusted by Chemical Partners Worldwide
           </h2>
-          <p className="mt-4 text-muted-foreground">
+          <p className="mt-3 text-muted-foreground">
             What industry professionals say about our premium surfactants
           </p>
         </div>
 
-        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:grid-rows-[auto_auto_auto] mt-8 lg:mt-12">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {testimonials.map((testimonial) => (
             <Card
               key={testimonial.id}
-              className={`h-full ${getCardClasses(testimonial.size)}`}
+              className={`overflow-hidden shadow-sm hover:shadow-md transition-shadow border-l-4 ${testimonial.accentColor}`}
             >
-              <CardContent className="p-6 h-full flex flex-col">
-                <blockquote className="flex-1 flex flex-col gap-4">
-                  <p className="text-pretty text-lg leading-relaxed">
+              <CardContent className="p-5 flex flex-col h-full">
+                <QuoteIcon className="size-6 opacity-30 mb-3" />
+                <blockquote className="flex-1">
+                  <p className="text-sm leading-relaxed text-muted-foreground">
                     “{testimonial.quote}”
                   </p>
-                  <footer className="mt-auto">
-                    <div className="flex items-center gap-4">
-                      <Avatar
-                        className={`size-12 ${
-                          testimonial.accentColor ||
-                          "bg-zinc-100 dark:bg-zinc-800"
-                        }`}
-                      >
-                        <AvatarFallback>{testimonial.initials}</AvatarFallback>
-                      </Avatar>
-                      <div>
-                        <cite className="not-italic font-medium block">
-                          {testimonial.name}
-                        </cite>
-                        <span className="text-muted-foreground text-sm block">
-                          {testimonial.role}
-                        </span>
-                      </div>
-                    </div>
-                  </footer>
                 </blockquote>
+                <footer className="mt-5">
+                  <div className="flex items-center gap-3">
+                    <Avatar className="size-9">
+                      <AvatarFallback
+                        className={`${testimonial.accentColor} font-medium`}
+                      >
+                        {testimonial.initials}
+                      </AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <cite className="not-italic font-medium block text-sm">
+                        {testimonial.name}
+                      </cite>
+                      <span className="text-xs text-muted-foreground block">
+                        {testimonial.role}
+                      </span>
+                    </div>
+                  </div>
+                </footer>
               </CardContent>
             </Card>
           ))}

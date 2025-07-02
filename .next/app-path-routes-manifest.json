@@ -1,17 +1,15 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/robots.txt/route": "/robots.txt",
   "/sitemap.xml/route": "/sitemap.xml",
+  "/favicon.ico/route": "/favicon.ico",
+  "/contact/page": "/contact",
   "/about/page": "/about",
+  "/page": "/",
   "/faq/page": "/faq",
   "/_not-found/page": "/_not-found",
   "/products/high_activity_color_stain_remover/page": "/products/high_activity_color_stain_remover",
-  "/contact/page": "/contact",
-  "/products/lithium_dodecyl_sulfate/page": "/products/lithium_dodecyl_sulfate",
-  "/products/magnesium_dodecyl_sulfate/page": "/products/magnesium_dodecyl_sulfate",
-  "/page": "/",
-  "/products/gypsum_board_foaming_agent/page": "/products/gypsum_board_foaming_agent",
   "/products/page": "/products",
+  "/products/magnesium_dodecyl_sulfate/page": "/products/magnesium_dodecyl_sulfate",
   "/products/positive_octyl_sodium_sulfate/page": "/products/positive_octyl_sodium_sulfate",
   "/products/potassium_dodecyl_sulfate/page": "/products/potassium_dodecyl_sulfate",
   "/products/sodium_alpha_olefin_sulfonate/page": "/products/sodium_alpha_olefin_sulfonate",
@@ -19,5 +17,7 @@
   "/products/sodium_isooctanol_sulfate/page": "/products/sodium_isooctanol_sulfate",
   "/products/sodium_lauryl_sulfate/page": "/products/sodium_lauryl_sulfate",
   "/products/sodium_n_decyl_sulfate/page": "/products/sodium_n_decyl_sulfate",
-  "/products/sodium_octyl_decyl_alcohol_sulphate/page": "/products/sodium_octyl_decyl_alcohol_sulphate"
+  "/products/sodium_octyl_decyl_alcohol_sulphate/page": "/products/sodium_octyl_decyl_alcohol_sulphate",
+  "/products/gypsum_board_foaming_agent/page": "/products/gypsum_board_foaming_agent",
+  "/products/lithium_dodecyl_sulfate/page": "/products/lithium_dodecyl_sulfate"
 }
