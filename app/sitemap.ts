@@ -4,30 +4,30 @@ import { products } from '@/data/products'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: '/',
+      url: 'https://hengtongtrading.com',
       lastModified: new Date(),
       priority: 1.0,
     },
     {
-      url: '/products',
+      url: 'https://hengtongtrading.com/products',
       lastModified: new Date(),
       priority: 0.95,
     },
     ...products.map((product) => ({
-      url: product.url,
+      url: "https://hengtongtrading.com" + product.url,
       lastModified: new Date(),
       priority: 0.9,
     })),
     {
-      url: '/faq',
+      url: 'https://hengtongtrading.com/faq',
       lastModified: new Date(),
     },
     {
-      url: '/about',
+      url: 'https://hengtongtrading.com/about',
       lastModified: new Date(),
     },
     {
-      url: '/contact',
+      url: 'https://hengtongtrading.com/contact',
       lastModified: new Date(),
     },
   ]
