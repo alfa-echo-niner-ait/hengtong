@@ -6,14 +6,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: '/',
       lastModified: new Date(),
+      priority: 1.0,
     },
     {
       url: '/products',
       lastModified: new Date(),
+      priority: 0.95,
     },
     ...products.map((product) => ({
       url: product.url,
       lastModified: new Date(),
+      priority: 0.9,
     })),
     {
       url: '/faq',

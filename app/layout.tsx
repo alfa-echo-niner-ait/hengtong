@@ -43,7 +43,16 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
-				<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+				<link
+					rel="sitemap"
+					type="application/xml"
+					title="Sitemap"
+					href="/sitemap.xml"
+				/>
+				<meta
+					name="google-site-verification"
+					content="3-AIHhodRyLMNPGAFWN4SnbcBX8HwTMawScXOObuelw"
+				/>
 			</head>
 			<body>
 				{children}

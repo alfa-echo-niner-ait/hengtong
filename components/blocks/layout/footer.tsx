@@ -125,7 +125,7 @@ const socialLinks = [
 
 export default function Footer() {
 	return (
-		<footer className="bg-muted/50 border-t mt-10">
+		<footer className="bg-muted/50 border-t mt-8">
 			<div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
 				<div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 					{/* Company Info with Social Links - Left */}
