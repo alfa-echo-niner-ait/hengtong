@@ -25,7 +25,7 @@ const links = [
 ];
 
 const contactInfo = {
-	phone: "+86 193 9819 2331",
+	phone: "+86 133 4124 6160",
 	email: "info@hengtongtrading.com",
 	address: "Huangdao District, Qingdao City, Shandong Province, China",
 };

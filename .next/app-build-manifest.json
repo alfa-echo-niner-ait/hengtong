@@ -19,7 +19,7 @@
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
       "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/css/86d2fe0439f0e239.css",
+      "static/css/8e6010735514ca44.css",
       "static/chunks/app/layout-bf751eeaa1fcc83c.js"
     ],
     "/not-found": [
@@ -29,15 +29,6 @@
       "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/app/not-found-4622620f7fa30cf6.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/app/contact/page-65e5f9def51bef14.js"
     ],
     "/faq/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -51,20 +42,6 @@
       "static/chunks/56086-a947a410916ce5d8.js",
       "static/chunks/22906-7707dbf50a23dde1.js",
       "static/chunks/app/faq/page-bf8479ea0e94ad66.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-50451b6ee8648ee1.js",
-      "static/chunks/41921-f067ec6be1675024.js",
-      "static/chunks/56086-a947a410916ce5d8.js",
-      "static/chunks/49926-a554f70fc9a98b73.js",
-      "static/chunks/22906-7707dbf50a23dde1.js",
-      "static/chunks/app/page-fe5114c3c0bb8797.js"
     ],
     "/about/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -83,29 +60,14 @@
       "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/app/_not-found/page-d35c552c174e608c.js"
     ],
-    "/products/gypsum_board_foaming_agent/page": [
+    "/contact/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
       "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-50451b6ee8648ee1.js",
-      "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
-      "static/chunks/app/products/gypsum_board_foaming_agent/page-f5a5e12b261072bc.js"
-    ],
-    "/products/high_activity_color_stain_remover/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-50451b6ee8648ee1.js",
-      "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
-      "static/chunks/app/products/high_activity_color_stain_remover/page-e5d5c27688563935.js"
+      "static/chunks/app/contact/page-5a8cce67a85b67f2.js"
     ],
     "/products/lithium_dodecyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -116,8 +78,46 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
       "static/chunks/app/products/lithium_dodecyl_sulfate/page-de64a504e9f13cac.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/41921-f067ec6be1675024.js",
+      "static/chunks/56086-a947a410916ce5d8.js",
+      "static/chunks/49926-a554f70fc9a98b73.js",
+      "static/chunks/22906-7707dbf50a23dde1.js",
+      "static/chunks/app/page-fe5114c3c0bb8797.js"
+    ],
+    "/products/high_activity_color_stain_remover/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/67148-16aa224b9b02305c.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
+      "static/chunks/app/products/high_activity_color_stain_remover/page-e5d5c27688563935.js"
+    ],
+    "/products/gypsum_board_foaming_agent/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/67148-16aa224b9b02305c.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
+      "static/chunks/app/products/gypsum_board_foaming_agent/page-f5a5e12b261072bc.js"
     ],
     "/products/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -128,18 +128,6 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/app/products/page-e27f08450e83952b.js"
     ],
-    "/products/magnesium_dodecyl_sulfate/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-50451b6ee8648ee1.js",
-      "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
-      "static/chunks/app/products/magnesium_dodecyl_sulfate/page-c580e7eb65b0874d.js"
-    ],
     "/products/positive_octyl_sodium_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
@@ -149,8 +137,20 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
       "static/chunks/app/products/positive_octyl_sodium_sulfate/page-eed5cb6a993c2911.js"
+    ],
+    "/products/magnesium_dodecyl_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/67148-16aa224b9b02305c.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
+      "static/chunks/app/products/magnesium_dodecyl_sulfate/page-c580e7eb65b0874d.js"
     ],
     "/products/sodium_alpha_olefin_sulfonate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -161,7 +161,7 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/app/products/sodium_alpha_olefin_sulfonate/page-46e9d19a913e997c.js"
+      "static/chunks/app/products/sodium_alpha_olefin_sulfonate/page-7d3272441428f2cf.js"
     ],
     "/products/potassium_dodecyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -172,20 +172,8 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
       "static/chunks/app/products/potassium_dodecyl_sulfate/page-f9b50c391c386efc.js"
-    ],
-    "/products/sodium_isooctanol_sulfate/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-50451b6ee8648ee1.js",
-      "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
-      "static/chunks/app/products/sodium_isooctanol_sulfate/page-f845c8bdf71869d6.js"
     ],
     "/products/sodium_dodccyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -196,8 +184,20 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
       "static/chunks/app/products/sodium_dodccyl_sulfate/page-7f824fb43c7ee148.js"
+    ],
+    "/products/sodium_isooctanol_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/67148-16aa224b9b02305c.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
+      "static/chunks/app/products/sodium_isooctanol_sulfate/page-f845c8bdf71869d6.js"
     ],
     "/products/sodium_lauryl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -208,20 +208,8 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
       "static/chunks/app/products/sodium_lauryl_sulfate/page-6739402ff84efdd4.js"
-    ],
-    "/products/sodium_n_decyl_sulfate/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-24cc3b65c3448642.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-50451b6ee8648ee1.js",
-      "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
-      "static/chunks/app/products/sodium_n_decyl_sulfate/page-21442ebe975f7146.js"
     ],
     "/products/sodium_octyl_decyl_alcohol_sulphate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
@@ -232,8 +220,20 @@
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/67148-16aa224b9b02305c.js",
-      "static/chunks/2150-9d98e22df15e5858.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
       "static/chunks/app/products/sodium_octyl_decyl_alcohol_sulphate/page-e1aa70afd81569cf.js"
+    ],
+    "/products/sodium_n_decyl_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/67148-16aa224b9b02305c.js",
+      "static/chunks/2150-aad6509d3543d8b6.js",
+      "static/chunks/app/products/sodium_n_decyl_sulfate/page-21442ebe975f7146.js"
     ]
   }
 }

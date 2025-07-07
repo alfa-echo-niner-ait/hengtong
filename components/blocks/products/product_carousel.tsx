@@ -16,7 +16,7 @@ export function ProductCarousel() {
 			<h2 className="text-balance text-2xl font-semibold lg:text-3xl mb-4">
 				Related Products
 			</h2>
-			<div className="relative mx-auto max-w-4xl">
+			<div className="relative mx-auto max-w-5xl">
 				<Carousel
 					opts={{
 						align: "center",
