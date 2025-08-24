@@ -63,7 +63,7 @@ export function ProductInfo() {
 								<p className="text-muted-foreground">ROSO3Na R=C8-10</p>
 							</div>
 						</div>
-						<InquiryButton />
+						<InquiryButton product_name="Sodium Octyl Decyl Alcohol Sulphate" />
 					</div>
 				</div>
 			</div>

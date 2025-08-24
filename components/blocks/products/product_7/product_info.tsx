@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { InquiryButton } from "../inquiry_button";
@@ -36,45 +38,40 @@ export function ProductInfo() {
 							</div>
 							<div className="sm:col-span-2">
 								<p className="text-muted-foreground">
-									Lithium dodecyl sulfate, Lithium dodecane sulfonate, Lithium lauryl sulfate
+									Lithium dodecyl sulfate, Lithium dodecane sulfonate, Lithium
+									lauryl sulfate
 								</p>
 							</div>
 							<div>
-								<h3 className="text-blue-950 font-semibold">
-									Name
-								</h3>
+								<h3 className="text-blue-950 font-semibold">Name</h3>
 							</div>
 							<div className="sm:col-span-2">
-								<p className="text-muted-foreground">
-									Lithium dodecyl sulfate
-								</p>
+								<p className="text-muted-foreground">Lithium dodecyl sulfate</p>
 							</div>
 							<div>
 								<h3 className="text-blue-950 font-semibold">Abbreviate</h3>
 							</div>
 							<div className="sm:col-span-2">
-								<p className="text-muted-foreground">
-									LDS
-								</p>
+								<p className="text-muted-foreground">LDS</p>
 							</div>
 							<div>
 								<h3 className="text-blue-950 font-semibold">CAS No.</h3>
 							</div>
 							<div className="sm:col-span-2">
-								<p className="text-muted-foreground">
-									2044-56-6
-								</p>
+								<p className="text-muted-foreground">2044-56-6</p>
 							</div>
 							<div>
-								<h3 className="text-blue-950 font-semibold">Molecular Formula</h3>
+								<h3 className="text-blue-950 font-semibold">
+									Molecular Formula
+								</h3>
 							</div>
 							<div className="sm:col-span-2">
-								<p className="text-muted-foreground">
-									C12H25LiO4S
-								</p>
+								<p className="text-muted-foreground">C12H25LiO4S</p>
 							</div>
 							<div>
-								<h3 className="text-blue-950 font-semibold">Molecular weight</h3>
+								<h3 className="text-blue-950 font-semibold">
+									Molecular weight
+								</h3>
 							</div>
 							<div className="sm:col-span-2">
 								<p className="text-muted-foreground">272.33</p>
@@ -84,11 +81,12 @@ export function ProductInfo() {
 							</div>
 							<div className="sm:col-span-2">
 								<p className="text-muted-foreground">
-									According to the effective content of this product can be 99% grade
+									According to the effective content of this product can be 99%
+									grade
 								</p>
 							</div>
 						</div>
-						<InquiryButton />
+						<InquiryButton product_name="Potassium Dodecyl Sulfate" />
 					</div>
 				</div>
 			</div>

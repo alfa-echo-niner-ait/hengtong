@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { InquiryButton } from "../inquiry_button";
@@ -36,13 +38,12 @@ export function ProductInfo() {
 							</div>
 							<div className="sm:col-span-2">
 								<p className="text-muted-foreground">
-									Dodecyl sulfate potassium, Lauryl sulfate potassium salt, Potassium lauryl sulfate
+									Dodecyl sulfate potassium, Lauryl sulfate potassium salt,
+									Potassium lauryl sulfate
 								</p>
 							</div>
 							<div>
-								<h3 className="text-blue-950 font-semibold">
-									English Name
-								</h3>
+								<h3 className="text-blue-950 font-semibold">English Name</h3>
 							</div>
 							<div className="sm:col-span-2">
 								<p className="text-muted-foreground">
@@ -53,26 +54,26 @@ export function ProductInfo() {
 								<h3 className="text-blue-950 font-semibold">CAS Number</h3>
 							</div>
 							<div className="sm:col-span-2">
-								<p className="text-muted-foreground">
-									4706-78-9
-								</p>
+								<p className="text-muted-foreground">4706-78-9</p>
 							</div>
 							<div>
-								<h3 className="text-blue-950 font-semibold">Molecular formula</h3>
+								<h3 className="text-blue-950 font-semibold">
+									Molecular formula
+								</h3>
 							</div>
 							<div className="sm:col-span-2">
-								<p className="text-muted-foreground">
-									ROSO4K R=C12-C14 alkyl
-								</p>
+								<p className="text-muted-foreground">ROSO4K R=C12-C14 alkyl</p>
 							</div>
 							<div>
-								<h3 className="text-blue-950 font-semibold">Molecular weight</h3>
+								<h3 className="text-blue-950 font-semibold">
+									Molecular weight
+								</h3>
 							</div>
 							<div className="sm:col-span-2">
 								<p className="text-muted-foreground">311</p>
 							</div>
 						</div>
-						<InquiryButton />
+						<InquiryButton product_name="Potassium Dodecyl Sulfate" />
 					</div>
 				</div>
 			</div>

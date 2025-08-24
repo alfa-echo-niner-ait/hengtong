@@ -73,7 +73,7 @@ export function ProductInfo() {
 								<p className="text-muted-foreground">232.27</p>
 							</div>
 						</div>
-						<InquiryButton />
+						<InquiryButton product_name="Sodium Isooctanol Sulfate" />
 					</div>
 				</div>
 			</div>

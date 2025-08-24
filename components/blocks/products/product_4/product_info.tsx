@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { InquiryButton } from "../inquiry_button";
@@ -85,7 +87,7 @@ export function ProductInfo() {
 								</p>
 							</div>
 						</div>
-						<InquiryButton />
+						<InquiryButton product_name="High Activity Color Stain Remover" />
 					</div>
 				</div>
 			</div>

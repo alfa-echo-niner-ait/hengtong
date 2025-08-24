@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { InquiryButton } from "../inquiry_button";
@@ -68,7 +70,7 @@ export function ProductInfo() {
 								<p className="text-muted-foreground">232.27</p>
 							</div>
 						</div>
-						<InquiryButton />
+						<InquiryButton product_name="Positive Octyl Sodium Sulfate" />
 					</div>
 				</div>
 			</div>
