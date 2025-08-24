@@ -8,6 +8,7 @@
     "static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [
+<<<<<<< HEAD
     "static/development/_ssgManifest.js",
     "static/development/_buildManifest.js"
   ],
@@ -19,6 +20,16 @@
     "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
     "static/chunks/_e69f0d32._.js",
     "static/chunks/_93808211._.js"
+=======
+    "static/OPulvDAfwFrqhNYR-9uDO/_buildManifest.js",
+    "static/OPulvDAfwFrqhNYR-9uDO/_ssgManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/webpack-b6347d495c66c3b4.js",
+    "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+    "static/chunks/31684-24a2d6822abe20d7.js",
+    "static/chunks/main-app-cb0250d5dfecffd9.js"
+>>>>>>> 984174763eec16a62feb65256c3782bb74372eb6
   ],
   "ampFirstPages": []
 }

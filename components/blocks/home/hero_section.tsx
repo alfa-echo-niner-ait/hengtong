@@ -51,9 +51,8 @@ export default function HeroSection() {
 						<div className="relative">
 							<div className="bg-radial-[at_85%_35%] to-background z-1 -inset-17 absolute from-transparent to-50%"></div>
 							<Image
-								className="dark:hidden"
 								src="/factory.png"
-								alt="app illustration"
+								alt="Chemical Production Plant"
 								width={2796}
 								height={2008}
 							/>

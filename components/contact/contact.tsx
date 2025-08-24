@@ -8,74 +8,74 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone, CheckCircle2 } from "lucide-react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    tel: "",
-    msg: ""
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
-  const [error, setError] = useState("");
+	const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		tel: "",
+		msg: ""
+	});
+	const [isSubmitting, setIsSubmitting] = useState(false);
+	const [isSuccess, setIsSuccess] = useState(false);
+	const [error, setError] = useState("");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { id, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [id]: value
-    }));
-  };
+	const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+		const { id, value } = e.target;
+		setFormData(prev => ({
+			...prev,
+			[id]: value
+		}));
+	};
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setError("");
+	const handleSubmit = async (e: React.FormEvent) => {
+		e.preventDefault();
+		setIsSubmitting(true);
+		setError("");
 
-    try {
-      const response = await fetch('https://hengtongtrading.com/api/mail-sender.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          tel: formData.tel,
-          msg: formData.msg
-        })
-      });
+		try {
+			const response = await fetch('https://hengtongtrading.com/api/mail-sender.php', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({
+					name: formData.name,
+					email: formData.email,
+					tel: formData.tel,
+					msg: formData.msg
+				})
+			});
 
-      const data = await response.json();
-      
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to send message');
-      }
+			const data = await response.json();
 
-      setIsSuccess(true);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'An unknown error occurred');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+			if (!response.ok) {
+				throw new Error(data.error || 'Failed to send message');
+			}
 
-  if (isSuccess) {
-    return (
-      <section className="py-4 md:py-8">
-        <div className="mx-auto max-w-5xl space-y-3 px-6 md:space-y-6">
-          <div className="flex flex-col items-center justify-center space-y-4 rounded-lg border border-green-200 bg-green-50 p-8 text-center">
-            <CheckCircle2 className="h-16 w-16 text-green-500" />
-            <h2 className="text-2xl font-medium text-green-800">Message Sent Successfully!</h2>
-            <p className="text-green-600">
-              Thank you for contacting us. We&apos;ll get back to you within 24 hours.
-            </p>
-          </div>
-        </div>
-      </section>
-    );
-  }
+			setIsSuccess(true);
+		} catch (err) {
+			setError(err instanceof Error ? err.message : 'An unknown error occurred');
+		} finally {
+			setIsSubmitting(false);
+		}
+	};
 
-  return (
+	if (isSuccess) {
+		return (
+			<section className="py-4 md:py-8">
+				<div className="mx-auto max-w-5xl space-y-3 px-6 md:space-y-6">
+					<div className="flex flex-col items-center justify-center space-y-4 rounded-lg border border-green-200 bg-green-50 p-8 text-center">
+						<CheckCircle2 className="h-16 w-16 text-green-500" />
+						<h2 className="text-2xl font-medium text-green-800">Message Sent Successfully!</h2>
+						<p className="text-green-600">
+							Thank you for contacting us. We&apos;ll get back to you within 24 hours.
+						</p>
+					</div>
+				</div>
+			</section>
+		);
+	}
+
+	return (
 		<section className="py-4 md:py-8">
 			<div className="mx-auto max-w-5xl space-y-3 px-6 md:space-y-6">
 				<h2 className="relative max-w-xl text-4xl font-medium lg:text-5xl">
@@ -180,6 +180,13 @@ export default function Contact() {
 									className="font-semibold hover:text-primary"
 								>
 									+86 133 4124 6160
+								</a>
+								<br />
+								<a
+									href={`tel:++8613370849950`}
+									className="font-semibold hover:text-primary"
+								>
+									+86 133 7084 9950
 								</a>
 							</div>
 							<div>
