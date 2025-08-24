@@ -1,339 +1,240 @@
 {
   "pages": {
-<<<<<<< HEAD
-    "/_not-found/page": [
-      "static/chunks/node_modules_next_dist_1a6ee436._.js",
-      "static/chunks/app_favicon_ico_mjs_659ce808._.js",
-      "static/chunks/_b43e422f._.js",
-      "static/chunks/app_globals_73c37791.css",
-      "static/chunks/app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_next_dist_b758c999._.js",
-      "static/chunks/app_not-found_tsx_15659c62._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
-      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
-      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
-      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_93808211._.js"
-    ],
-    "/contact/page": [
-      "static/chunks/node_modules_next_dist_1a6ee436._.js",
-      "static/chunks/app_favicon_ico_mjs_659ce808._.js",
-      "static/chunks/_b43e422f._.js",
-      "static/chunks/app_globals_73c37791.css",
-      "static/chunks/app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_next_dist_b758c999._.js",
-      "static/chunks/app_not-found_tsx_15659c62._.js",
-      "static/chunks/node_modules_7ef41881._.js",
-      "static/chunks/_5e4d2c49._.js",
-      "static/chunks/app_contact_page_tsx_15659c62._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
-      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
-      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
-      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_93808211._.js"
-    ],
-    "/page": [
-      "static/chunks/node_modules_next_dist_1a6ee436._.js",
-      "static/chunks/app_favicon_ico_mjs_659ce808._.js",
-      "static/chunks/_b43e422f._.js",
-      "static/chunks/app_globals_73c37791.css",
-      "static/chunks/app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_next_dist_b758c999._.js",
-      "static/chunks/app_not-found_tsx_15659c62._.js",
-      "static/chunks/node_modules_lucide-react_dist_esm_icons_8efb29ee._.js",
-      "static/chunks/_747673f0._.js",
-      "static/chunks/node_modules_next_46d16782._.js",
-      "static/chunks/node_modules_lucide-react_dist_esm_58273ea8._.js",
-      "static/chunks/node_modules_framer-motion_dist_es_158b31ff._.js",
-      "static/chunks/node_modules_motion-dom_dist_es_fa3ea29e._.js",
-      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_b854acb4._.js",
-      "static/chunks/node_modules_269086d4._.js",
-      "static/chunks/app_page_tsx_15659c62._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
-      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
-      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
-      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_93808211._.js"
-    ],
-    "/products/page": [
-      "static/chunks/node_modules_next_dist_1a6ee436._.js",
-      "static/chunks/app_favicon_ico_mjs_659ce808._.js",
-      "static/chunks/_b43e422f._.js",
-      "static/chunks/app_globals_73c37791.css",
-      "static/chunks/app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_next_dist_b758c999._.js",
-      "static/chunks/app_not-found_tsx_15659c62._.js",
-      "static/chunks/node_modules_96ede7a7._.js",
-      "static/chunks/_6ca4880c._.js",
-      "static/chunks/app_products_page_tsx_15659c62._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
-      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
-      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
-      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_93808211._.js"
-    ],
-    "/products/sodium_lauryl_sulfate/page": [
-      "static/chunks/node_modules_next_dist_1a6ee436._.js",
-      "static/chunks/app_favicon_ico_mjs_659ce808._.js",
-      "static/chunks/_b43e422f._.js",
-      "static/chunks/app_globals_73c37791.css",
-      "static/chunks/app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_next_dist_b758c999._.js",
-      "static/chunks/app_not-found_tsx_15659c62._.js",
-      "static/chunks/node_modules_1bf37c76._.js",
-      "static/chunks/_ab8c652b._.js",
-      "static/chunks/app_products_sodium_lauryl_sulfate_page_tsx_15659c62._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
-      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
-      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
-      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
-      "static/chunks/_e69f0d32._.js",
-      "static/chunks/_93808211._.js"
-=======
-    "/sitemap.xml/route": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/app/sitemap.xml/route-a8b4709751160057.js"
-    ],
     "/robots.txt/route": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/app/robots.txt/route-8d05f5457240931d.js"
+    ],
+    "/sitemap.xml/route": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/app/sitemap.xml/route-a8b4709751160057.js"
     ],
     "/layout": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/css/10ec41793f0806af.css",
-      "static/chunks/app/layout-1fc18dff2db5b1f2.js"
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/css/8ebb78a2823fb066.css",
+      "static/chunks/app/layout-bf751eeaa1fcc83c.js"
     ],
     "/not-found": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/app/not-found-71147e6d8b85b3f7.js"
+      "static/chunks/app/not-found-4622620f7fa30cf6.js"
     ],
     "/about/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
       "static/chunks/41921-f067ec6be1675024.js",
-      "static/chunks/app/about/page-13757ef84b4666e5.js"
-    ],
-    "/products/high_activity_color_stain_remover/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/high_activity_color_stain_remover/page-92ea43ff09f4d1e7.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/app/_not-found/page-d35c552c174e608c.js"
+      "static/chunks/app/about/page-fe155456a426e4c7.js"
     ],
     "/contact/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/app/contact/page-18fa3004a7573ac8.js"
+      "static/chunks/app/contact/page-431d54c8d6f6c157.js"
     ],
-    "/faq/page": [
+    "/_not-found/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/41921-f067ec6be1675024.js",
-      "static/chunks/56086-1f432802238bba8c.js",
-      "static/chunks/22906-7707dbf50a23dde1.js",
-      "static/chunks/app/faq/page-a4e3a04d819c7188.js"
-    ],
-    "/products/gypsum_board_foaming_agent/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/gypsum_board_foaming_agent/page-63847a05a7c8f47d.js"
-    ],
-    "/products/lithium_dodecyl_sulfate/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/lithium_dodecyl_sulfate/page-631eb8ea1d458c13.js"
-    ],
-    "/products/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/app/products/page-cbbedc43276cbc7c.js"
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/app/_not-found/page-d35c552c174e608c.js"
     ],
     "/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
       "static/chunks/41921-f067ec6be1675024.js",
-      "static/chunks/56086-1f432802238bba8c.js",
+      "static/chunks/56086-a947a410916ce5d8.js",
       "static/chunks/49926-a554f70fc9a98b73.js",
       "static/chunks/22906-7707dbf50a23dde1.js",
-      "static/chunks/app/page-806421129a320730.js"
+      "static/chunks/app/page-67a151398429a214.js"
     ],
-    "/products/positive_octyl_sodium_sulfate/page": [
+    "/products/gypsum_board_foaming_agent/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/positive_octyl_sodium_sulfate/page-3a27bb6aabae853f.js"
-    ],
-    "/products/sodium_alpha_olefin_sulfonate/page": [
-      "static/chunks/webpack-b6347d495c66c3b4.js",
-      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
-      "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
-      "static/chunks/6874-a443b44be91ba426.js",
-      "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/app/products/sodium_alpha_olefin_sulfonate/page-d362c2221cbbb353.js"
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/gypsum_board_foaming_agent/page-2da14c51c881bbdf.js"
     ],
     "/products/magnesium_dodecyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/magnesium_dodecyl_sulfate/page-05edc791b4124018.js"
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/magnesium_dodecyl_sulfate/page-49c4c5a206524001.js"
     ],
-    "/products/sodium_octyl_decyl_alcohol_sulphate/page": [
+    "/faq/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/sodium_octyl_decyl_alcohol_sulphate/page-e3b8084e97fc4281.js"
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/41921-f067ec6be1675024.js",
+      "static/chunks/56086-a947a410916ce5d8.js",
+      "static/chunks/22906-7707dbf50a23dde1.js",
+      "static/chunks/app/faq/page-bf8479ea0e94ad66.js"
     ],
-    "/products/sodium_isooctanol_sulfate/page": [
+    "/products/high_activity_color_stain_remover/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/sodium_isooctanol_sulfate/page-6defce3b83ca723e.js"
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/high_activity_color_stain_remover/page-b1d9e336d4c2923b.js"
+    ],
+    "/products/lithium_dodecyl_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/lithium_dodecyl_sulfate/page-31b9c2bae2063027.js"
+    ],
+    "/products/positive_octyl_sodium_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/positive_octyl_sodium_sulfate/page-9d4f716bd527dcd4.js"
     ],
     "/products/potassium_dodecyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/potassium_dodecyl_sulfate/page-c07d70bdc9a20dbc.js"
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/potassium_dodecyl_sulfate/page-07d02d22ca745a98.js"
     ],
-    "/products/sodium_lauryl_sulfate/page": [
+    "/products/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/sodium_lauryl_sulfate/page-9d8cbfcd3d9e4605.js"
+      "static/chunks/app/products/page-e27f08450e83952b.js"
+    ],
+    "/products/sodium_alpha_olefin_sulfonate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/sodium_alpha_olefin_sulfonate/page-42638a5ec7fd33a2.js"
     ],
     "/products/sodium_dodccyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/sodium_dodccyl_sulfate/page-0108252556bc109b.js"
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/sodium_dodccyl_sulfate/page-f5c18214d047c075.js"
+    ],
+    "/products/sodium_isooctanol_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/sodium_isooctanol_sulfate/page-45c3ba62dddcf1ba.js"
     ],
     "/products/sodium_n_decyl_sulfate/page": [
       "static/chunks/webpack-b6347d495c66c3b4.js",
       "static/chunks/4bd1b696-7713e6016d1b2f08.js",
       "static/chunks/31684-24a2d6822abe20d7.js",
-      "static/chunks/main-app-cb0250d5dfecffd9.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
       "static/chunks/6874-a443b44be91ba426.js",
       "static/chunks/42838-1995a682d0e4271a.js",
-      "static/chunks/88218-13b9ddfc0f5927ca.js",
-      "static/chunks/67148-b0f981bee46ab2b9.js",
-      "static/chunks/94315-0cebb5a7b6a406c9.js",
-      "static/chunks/app/products/sodium_n_decyl_sulfate/page-87904fd54add168a.js"
->>>>>>> 984174763eec16a62feb65256c3782bb74372eb6
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/sodium_n_decyl_sulfate/page-c2cc8a7f293384d6.js"
+    ],
+    "/products/sodium_lauryl_sulfate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/sodium_lauryl_sulfate/page-59c6bf5e5c5f40aa.js"
+    ],
+    "/products/sodium_octyl_decyl_alcohol_sulphate/page": [
+      "static/chunks/webpack-b6347d495c66c3b4.js",
+      "static/chunks/4bd1b696-7713e6016d1b2f08.js",
+      "static/chunks/31684-24a2d6822abe20d7.js",
+      "static/chunks/main-app-24cc3b65c3448642.js",
+      "static/chunks/6874-a443b44be91ba426.js",
+      "static/chunks/42838-1995a682d0e4271a.js",
+      "static/chunks/88218-50451b6ee8648ee1.js",
+      "static/chunks/87928-3a5dc81fc76696d7.js",
+      "static/chunks/60049-f8b4de6e524ea2ab.js",
+      "static/chunks/app/products/sodium_octyl_decyl_alcohol_sulphate/page-99b9da500662a306.js"
     ]
   }
 }

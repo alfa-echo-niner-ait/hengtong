@@ -1,4 +1,4 @@
-// File: E:\Projects\hengtong\app\products\high_activity_color_stain_remover\page.tsx
+// File: F:\Projects\hengtong\app\products\high_activity_color_stain_remover\page.tsx
 import * as entry from '../../../../../app/products/high_activity_color_stain_remover/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
