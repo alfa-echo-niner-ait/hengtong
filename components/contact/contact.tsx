@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone, CheckCircle2 } from "lucide-react";
+import FacebookPagePlugin from "../blocks/home/facebook_page";
 
 export default function Contact() {
 	const [formData, setFormData] = useState({
@@ -97,38 +98,43 @@ export default function Contact() {
 							className="**:[&>label]:block space-y-6 *:space-y-3"
 						>
 							<div>
-								<Label htmlFor="name">Your/Company Name</Label>
+								<Label htmlFor="name">Your/Company Name <span className="text-red-500">*</span></Label>
 								<Input
 									type="text"
 									id="name"
 									required
 									value={formData.name}
 									onChange={handleChange}
+									disabled={isSubmitting}
 								/>
 							</div>
 
 							<div>
-								<Label htmlFor="email">Email</Label>
+								<Label htmlFor="email">Email <span className="text-red-500">*</span></Label>
 								<Input
 									type="email"
 									id="email"
+									required
 									value={formData.email}
 									onChange={handleChange}
+									disabled={isSubmitting}
 								/>
 							</div>
 
 							<div>
-								<Label htmlFor="tel">Phone/WhatsApp</Label>
+								<Label htmlFor="tel">Phone/WhatsApp <span className="text-red-500">*</span></Label>
 								<Input
 									type="tel"
 									id="tel"
+									required
 									value={formData.tel}
 									onChange={handleChange}
+									disabled={isSubmitting}
 								/>
 							</div>
 
 							<div>
-								<Label htmlFor="msg">Your Message</Label>
+								<Label htmlFor="msg">Your Message <span className="text-red-500">*</span></Label>
 								<Textarea
 									id="msg"
 									rows={10}
@@ -136,6 +142,7 @@ export default function Contact() {
 									required
 									value={formData.msg}
 									onChange={handleChange}
+									disabled={isSubmitting}
 								/>
 							</div>
 
@@ -148,6 +155,9 @@ export default function Contact() {
 								{isSubmitting ? "Sending..." : "Send"}
 							</Button>
 						</form>
+						<p className="mt-4 text-sm text-gray-500">
+							<span className="text-red-500">*</span> Required fields. We&apos;ll get back to you as soon as possible.
+						</p>
 					</div>
 
 					<div className="relative space-y-4">
@@ -205,6 +215,7 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
+			<FacebookPagePlugin />
 		</section>
 	);
 }

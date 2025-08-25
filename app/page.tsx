@@ -10,6 +10,7 @@ import Footer from "@/components/blocks/layout/footer";
 import Header from "@/components/blocks/layout/header";
 import { ImageSlider } from "@/components/blocks/home/image_slider";
 import Testimonials from "@/components/blocks/home/testimonials";
+import FacebookPagePlugin from "@/components/blocks/home/facebook_page";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://hengtongtrading.com"),
@@ -66,6 +67,7 @@ export default function Home() {
 		<>
 			<Header />
 			<HeroSection />
+			<FacebookPagePlugin />
 			<StatsSection />
 			<FeaturesSection />
 			<AboutSection />

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	title: "Magnesium Dodecyl Sulfate | Hengtong Trading",
 	description:
 		"Magnesium Dodecyl Sulfate is a magnesium-based surfactant used in specialized cleaning formulations. It is known for its excellent emulsifying and wetting properties.",
-	keywords: [		"Magnesium Dodecyl Sulfate",
+	keywords: ["Magnesium Dodecyl Sulfate",
 		"Surfactant",
 		"Emulsifier",
 		"Cleaning Agent",

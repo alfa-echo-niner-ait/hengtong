@@ -33,7 +33,8 @@ export const metadata: Metadata = {
 				height: 630,
 				alt: "Gypsum Board Foaming Agent - Hengtong Trading",
 			},
-		]},
+		]
+	},
 };
 
 export default function Home() {

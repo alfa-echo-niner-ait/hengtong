@@ -30,7 +30,7 @@ export function ProductInfo() {
 					{/* Product Details */}
 					<div>
 						<h1 className="mb-4 text-3xl font-bold tracking-tight border-b-2 border-zinc-400 pb-3">
-							Potassium Dodecyl Sulfate
+							Lithium Dodecyl Sulfate
 						</h1>
 						<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
 							<div>
