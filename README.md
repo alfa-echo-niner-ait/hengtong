@@ -1,6 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Simple Website for Company
+
+A modern, SEO-friendly static website built with Next.js and TypeScript.
+
+## Features
+
+- **Fast & Lightweight** - Built with Next.js for optimal performance
+- **Responsive Design** - Tailwind CSS for mobile-first responsive layout
+- **Modern UI** - Shadcn UI components for consistent design
+- **SEO Optimized** - Static generation with proper meta tags
+- **TypeScript** - Type-safe development
+
+## Pages
+
+- Homepage
+- Products listing page
+- Individual product pages
+- About section
+- FAQ page
+- Contact form (requires backend for functionality)
+
+## Tech Stack
+
+- **Framework**: Next.js
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn UI
+- **Deployment**: Static site generation
+
+## Live Demo
+
+[hengtongtrading.com](https://hengtongtrading.com)
+
+#### Homepage
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab27c37f-7e5c-4296-b3b5-3fb6c75bdb02" />
+
+#### Products
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/99f03c43-d9be-4477-96c7-2cb3c71022bf" />
+
+#### Product View
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/976d6db7-0e11-4d93-8564-38e953992395" />
+
+#### Contact Page
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/135cc01c-6698-43cf-96bb-2e3753f79e8a" />
+
+## Note
+
+The contact form requires backend integration for email functionality or database storage.
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+Install the required packages:
+
+```bash
+npm install
+```
 
 First, run the development server:
 
