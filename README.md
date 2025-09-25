@@ -1,6 +1,6 @@
 # Simple Website for Company
 
-A modern, SEO-friendly static website built with Next.js and TypeScript.
+A modern, SEO-friendly static website built with Next.js, Tailwind, Shadcn UI, and TypeScript.
 
 ## Features
 
